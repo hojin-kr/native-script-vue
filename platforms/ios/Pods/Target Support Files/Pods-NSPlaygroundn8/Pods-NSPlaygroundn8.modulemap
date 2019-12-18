@@ -1,0 +1,6 @@
+framework module Pods_NSPlaygroundn8 {
+  umbrella header "Pods-NSPlaygroundn8-umbrella.h"
+
+  export *
+  module * { export * }
+}

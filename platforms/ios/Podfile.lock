@@ -1,0 +1,68 @@
+PODS:
+  - IQKeyboardManager (6.2.1)
+  - MaterialComponents/AnimationTiming (92.5.0)
+  - MaterialComponents/Elevation (92.5.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (92.5.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (92.5.0)
+  - MaterialComponents/private/Application (92.5.0)
+  - MaterialComponents/private/Color (92.5.0)
+  - MaterialComponents/private/Math (92.5.0)
+  - MaterialComponents/Ripple (92.5.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (92.5.0)
+  - MaterialComponents/ShadowLayer (92.5.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Tabs (92.5.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (92.5.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - QBImagePickerController (3.4.0)
+  - SAMKeychain (1.5.3)
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
+
+DEPENDENCIES:
+  - IQKeyboardManager (~> 6.2.0)
+  - MaterialComponents/Tabs (~> 92.3)
+  - QBImagePickerController (~> 3.4.0)
+  - SAMKeychain (~> 1.5.3)
+  - SDWebImage (>= 5.0.6)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - MaterialComponents
+    - MDFInternationalization
+    - QBImagePickerController
+    - SAMKeychain
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  MaterialComponents: 268edb7e34f1277b79d20f701b6ae30c7cd0179a
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+
+PODFILE CHECKSUM: b98252bb261364146c359b84b9c3ca80613100bd
+
+COCOAPODS: 1.8.0

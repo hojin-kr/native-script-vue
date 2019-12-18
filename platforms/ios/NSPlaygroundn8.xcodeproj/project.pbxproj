@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0203DF3E1D5B4A22B7B26D55 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E82F09A46B4F598358436B /* menu@3x.png */; };
+		0BD6EF7BC2254C6692A6E79E /* TNSSideDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9196BBDE71394610BFBCB53F /* TNSSideDrawer.framework */; };
+		0D3FBB92D3894D98BE407AEF /* TNSCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8C33FCA3E59400D852757A4 /* TNSCalendar.framework */; };
+		0F494E063A0D42E39E437D61 /* TNSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C33FCA3E59400D852757A4 /* TNSCalendar.framework */; };
+		1026F11BC8CE45A8A45B64BD /* TNSAutoComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C1042CDB364D27888D37E8 /* TNSAutoComplete.framework */; };
+		10A821FCEEFA490D8BABE4FF /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC3B3A210264A5EBD6ABD61 /* TNSWidgets.framework */; };
+		1877E6754A804AF090CEC976 /* TNSGauge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B57BBA9AB06E4B3EA43480C0 /* TNSGauge.framework */; };
+		18BA2B0E610242E6B11DE884 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AC773138004BC49734BA94 /* search@3x.png */; };
+		197C25D74986424DBC91E0A1 /* sqlitewrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23C21E2C97E47C8A232B09F /* sqlitewrapper.framework */; };
+		249EC61177EE475A8836D61F /* browse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A0CC4C7C6D4D70BDA61751 /* browse@2x.png */; };
+		32345205DB3F46948309DC46 /* TNSAutoComplete.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85C1042CDB364D27888D37E8 /* TNSAutoComplete.framework */; };
+		372B90F0D52345099E4A9789 /* home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E96E7BBBF0E94A2DB17DD7EA /* home@3x.png */; };
+		38E891D5EF384A5CB9ECE195 /* NSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC7C27BD491499495741754 /* NSImageView.m */; };
+		395C9D1279074A919FC62F88 /* sqlitewrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B23C21E2C97E47C8A232B09F /* sqlitewrapper.framework */; };
+		42C751E7232B769100186695 /* nativescript-pre-link in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E2232B769100186695 /* nativescript-pre-link */; };
+		42C751E8232B769100186695 /* strip-dynamic-framework-architectures.sh in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E3232B769100186695 /* strip-dynamic-framework-architectures.sh */; };
+		42C751E9232B769100186695 /* nsld.sh in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E4232B769100186695 /* nsld.sh */; };
+		42C751EA232B769100186695 /* nativescript-post-build in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E5232B769100186695 /* nativescript-post-build */; };
+		42C751EB232B769100186695 /* nativescript-pre-build in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E6232B769100186695 /* nativescript-pre-build */; };
+		43546EAC14A54E9D874EB2F5 /* favorites@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DFEF976EF8D4D0CB5337820 /* favorites@3x.png */; };
+		4744B633E313459DA424D86F /* TNSDataForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A5E66AED8B4DDFA3261CFD /* TNSDataForm.framework */; };
+		528FA8EB97204B41B251060C /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8FFA984F994E7E9896A477 /* menu.png */; };
+		63CB620E8A664154A241D29A /* favorites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDC4850BF414360BE56C40C /* favorites@2x.png */; };
+		6B5F1C2B01C04982A2153647 /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC7340B95F64C44AFA655C5 /* TNSCore.framework */; };
+		7C51F40F1E4A4FEC96CB318C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EE73A7B4704810AB33CBF8 /* home.png */; };
+		816F949DEC6B4ADA821D4875 /* browse@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BBB42B58345049A7CAA4E /* browse@3x.png */; };
+		83E2DF979A5D497EB6D79E33 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 67CF941C2ABE48ECB7D6E8B2 /* settings.png */; };
+		842B5546D3934765B35E65A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3E2E80DCB447C280C76A89 /* Assets.xcassets */; };
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		8AA2DAE29ED04505B0A8A36B /* TNSChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1101F30AEBD44289C304123 /* TNSChart.framework */; };
+		8B2C6CE092953BCC18AA6255 /* Pods_NSPlaygroundn8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72880CAC43F92CFCA8B14D10 /* Pods_NSPlaygroundn8.framework */; };
+		8E28AA0EB18747249B4D9DCD /* TNSListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2BF12050AD441BB1F34918 /* TNSListView.framework */; };
+		90C1637555524DAAB0A1D39A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6B7F9C0B2BD1402AAAAE0F97 /* build.xcconfig */; };
+		9367CBBFE2A4431181B84B92 /* settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932807D2137949F9B6ED3346 /* settings@3x.png */; };
+		AF6270B6FB6F4415ACCC35ED /* TNSGauge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57BBA9AB06E4B3EA43480C0 /* TNSGauge.framework */; };
+		B4E6289A73F1451DA062466F /* TNSListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2BF12050AD441BB1F34918 /* TNSListView.framework */; };
+		B9B94C605E6E4472A06CE9B3 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = F0474FA33D69453D8CAF598A /* search.png */; };
+		C72EE514CB414FFD8C2E4621 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C94E995A0834EB793FA762A /* home@2x.png */; };
+		CA51D648B6694D18B9B9A8C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C41ACDE3F744CCB8188E6CC /* LaunchScreen.storyboard */; };
+		CAE5D0CE0CC344CEBA30A0D8 /* browse.png in Resources */ = {isa = PBXBuildFile; fileRef = 9272575B590842AC867AD984 /* browse.png */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		D1E9AF51DA0E48B7820B18C8 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC3B3A210264A5EBD6ABD61 /* TNSWidgets.framework */; };
+		D84D1C8355B54CDABD4ECBDE /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AE1B82B651F462BA082B5DA /* menu@2x.png */; };
+		DFEBC5F3CC324EB393B44CAD /* TNSSideDrawer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9196BBDE71394610BFBCB53F /* TNSSideDrawer.framework */; };
+		E2A2BF146994455C8770D532 /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDC7340B95F64C44AFA655C5 /* TNSCore.framework */; };
+		E388016575284B0B9C4FBA6E /* TNSDataForm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21A5E66AED8B4DDFA3261CFD /* TNSDataForm.framework */; };
+		E97E446621B84D4C8958983D /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8F280484074425854564F4 /* search@2x.png */; };
+		EBFCB7ADC8874F479811643F /* favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A21B6F2F14645179DEF4BA1 /* favorites.png */; };
+		F7060FA2A0B34F5690B10A77 /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF348B5BCF94CCB9CCA53EE /* NativeScriptEmbedder.m */; };
+		FA1C72D2954642968AF68667 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBFA5FF2FD04861829A7A58 /* settings@2x.png */; };
+		FE9BC54A2E0A482FA1ED6806 /* TNSChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1101F30AEBD44289C304123 /* TNSChart.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				32345205DB3F46948309DC46 /* TNSAutoComplete.framework in Embed Frameworks */,
+				0D3FBB92D3894D98BE407AEF /* TNSCalendar.framework in Embed Frameworks */,
+				8AA2DAE29ED04505B0A8A36B /* TNSChart.framework in Embed Frameworks */,
+				E388016575284B0B9C4FBA6E /* TNSDataForm.framework in Embed Frameworks */,
+				1877E6754A804AF090CEC976 /* TNSGauge.framework in Embed Frameworks */,
+				8E28AA0EB18747249B4D9DCD /* TNSListView.framework in Embed Frameworks */,
+				DFEBC5F3CC324EB393B44CAD /* TNSSideDrawer.framework in Embed Frameworks */,
+				10A821FCEEFA490D8BABE4FF /* TNSWidgets.framework in Embed Frameworks */,
+				395C9D1279074A919FC62F88 /* sqlitewrapper.framework in Embed Frameworks */,
+				E2A2BF146994455C8770D532 /* TNSCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09EE0C9C99FB6C486970B762 /* Pods-NSPlaygroundn8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSPlaygroundn8.debug.xcconfig"; path = "Target Support Files/Pods-NSPlaygroundn8/Pods-NSPlaygroundn8.debug.xcconfig"; sourceTree = "<group>"; };
+		21A5E66AED8B4DDFA3261CFD /* TNSDataForm.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSDataForm.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-dataform/platforms/ios/TNSDataForm.framework"; sourceTree = "<group>"; };
+		2DBFA5FF2FD04861829A7A58 /* settings@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "settings@2x.png"; path = "NSPlaygroundn8/Resources/settings@2x.png"; sourceTree = "<group>"; };
+		2DC7C27BD491499495741754 /* NSImageView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = NSImageView.m; path = "../../node_modules/nativescript-image/platforms/ios/src/NSImageView.m"; sourceTree = "<group>"; };
+		2E5BBB42B58345049A7CAA4E /* browse@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "browse@3x.png"; path = "NSPlaygroundn8/Resources/browse@3x.png"; sourceTree = "<group>"; };
+		391174B321F1CBD300BA2583 /* TNSDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNSDebugging.h; path = internal/TNSDebugging.h; sourceTree = SOURCE_ROOT; };
+		391174B421F1CBD300BA2583 /* TNSExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNSExceptionHandler.h; path = internal/TNSExceptionHandler.h; sourceTree = SOURCE_ROOT; };
+		391174B521F1D7BF00BA2583 /* nativescript-build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "nativescript-build.xcconfig"; path = "internal/nativescript-build.xcconfig"; sourceTree = SOURCE_ROOT; };
+		391174B721F1D99900BA2583 /* plugins-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "plugins-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		391174B821F1D99900BA2583 /* plugins-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "plugins-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		42C751E2232B769100186695 /* nativescript-pre-link */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-pre-link"; path = "internal/nativescript-pre-link"; sourceTree = SOURCE_ROOT; };
+		42C751E3232B769100186695 /* strip-dynamic-framework-architectures.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "strip-dynamic-framework-architectures.sh"; path = "internal/strip-dynamic-framework-architectures.sh"; sourceTree = SOURCE_ROOT; };
+		42C751E4232B769100186695 /* nsld.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = nsld.sh; path = internal/nsld.sh; sourceTree = SOURCE_ROOT; };
+		42C751E5232B769100186695 /* nativescript-post-build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-post-build"; path = "internal/nativescript-post-build"; sourceTree = SOURCE_ROOT; };
+		42C751E6232B769100186695 /* nativescript-pre-build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-pre-build"; path = "internal/nativescript-pre-build"; sourceTree = SOURCE_ROOT; };
+		45E82F09A46B4F598358436B /* menu@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "menu@3x.png"; path = "NSPlaygroundn8/Resources/menu@3x.png"; sourceTree = "<group>"; };
+		4A8FFA984F994E7E9896A477 /* menu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = menu.png; path = NSPlaygroundn8/Resources/menu.png; sourceTree = "<group>"; };
+		4AE1B82B651F462BA082B5DA /* menu@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "menu@2x.png"; path = "NSPlaygroundn8/Resources/menu@2x.png"; sourceTree = "<group>"; };
+		5CC3B3A210264A5EBD6ABD61 /* TNSWidgets.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		5D1020701B6A8A8E161A36EB /* Pods-NSPlaygroundn8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSPlaygroundn8.release.xcconfig"; path = "Target Support Files/Pods-NSPlaygroundn8/Pods-NSPlaygroundn8.release.xcconfig"; sourceTree = "<group>"; };
+		5FF348B5BCF94CCB9CCA53EE /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = NativeScriptEmbedder.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; };
+		67CF941C2ABE48ECB7D6E8B2 /* settings.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = settings.png; path = NSPlaygroundn8/Resources/settings.png; sourceTree = "<group>"; };
+		68A0CC4C7C6D4D70BDA61751 /* browse@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "browse@2x.png"; path = "NSPlaygroundn8/Resources/browse@2x.png"; sourceTree = "<group>"; };
+		6B7F9C0B2BD1402AAAAE0F97 /* build.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = NSPlaygroundn8/Resources/build.xcconfig; sourceTree = "<group>"; };
+		6C41ACDE3F744CCB8188E6CC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = NSPlaygroundn8/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C94E995A0834EB793FA762A /* home@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "home@2x.png"; path = "NSPlaygroundn8/Resources/home@2x.png"; sourceTree = "<group>"; };
+		72880CAC43F92CFCA8B14D10 /* Pods_NSPlaygroundn8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSPlaygroundn8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A21B6F2F14645179DEF4BA1 /* favorites.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = favorites.png; path = NSPlaygroundn8/Resources/favorites.png; sourceTree = "<group>"; };
+		858B832E18CA111C00AB12DE /* NSPlaygroundn8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSPlaygroundn8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* NSPlaygroundn8-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSPlaygroundn8-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* NSPlaygroundn8-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSPlaygroundn8-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* NSPlaygroundn8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSPlaygroundn8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C1042CDB364D27888D37E8 /* TNSAutoComplete.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSAutoComplete.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-autocomplete/platforms/ios/TNSAutoComplete.framework"; sourceTree = "<group>"; };
+		8DFEF976EF8D4D0CB5337820 /* favorites@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "favorites@3x.png"; path = "NSPlaygroundn8/Resources/favorites@3x.png"; sourceTree = "<group>"; };
+		8E3E2E80DCB447C280C76A89 /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NSPlaygroundn8/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		9196BBDE71394610BFBCB53F /* TNSSideDrawer.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSSideDrawer.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-sidedrawer/platforms/ios/TNSSideDrawer.framework"; sourceTree = "<group>"; };
+		9272575B590842AC867AD984 /* browse.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = browse.png; path = NSPlaygroundn8/Resources/browse.png; sourceTree = "<group>"; };
+		92AC773138004BC49734BA94 /* search@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "search@3x.png"; path = "NSPlaygroundn8/Resources/search@3x.png"; sourceTree = "<group>"; };
+		930F05DB22671AE300D269DC /* Swift-ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Swift-ObjC-Bridging-Header.h"; path = "internal/Swift-ObjC-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		932807D2137949F9B6ED3346 /* settings@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "settings@3x.png"; path = "NSPlaygroundn8/Resources/settings@3x.png"; sourceTree = "<group>"; };
+		9C2BF12050AD441BB1F34918 /* TNSListView.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSListView.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios/TNSListView.framework"; sourceTree = "<group>"; };
+		A1101F30AEBD44289C304123 /* TNSChart.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSChart.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-chart/platforms/ios/TNSChart.framework"; sourceTree = "<group>"; };
+		A7513D66BB3E47FBA4F70709 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = NativeScriptEmbedder.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; };
+		ADDC4850BF414360BE56C40C /* favorites@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "favorites@2x.png"; path = "NSPlaygroundn8/Resources/favorites@2x.png"; sourceTree = "<group>"; };
+		B23C21E2C97E47C8A232B09F /* sqlitewrapper.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = sqlitewrapper.framework; path = "$(SRCROOT)/../../node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework"; sourceTree = "<group>"; };
+		B57BBA9AB06E4B3EA43480C0 /* TNSGauge.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSGauge.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-gauge/platforms/ios/TNSGauge.framework"; sourceTree = "<group>"; };
+		BCBB4F7B0A3E4334A8ACC291 /* module.modulemap */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "../../node_modules/@nativescript/core/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; };
+		BDC7340B95F64C44AFA655C5 /* TNSCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; };
+		C63968FA6F5B4895BA621729 /* NSImage.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = NSImage.h; path = "../../node_modules/nativescript-image/platforms/ios/src/NSImage.h"; sourceTree = "<group>"; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		CE8F280484074425854564F4 /* search@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "search@2x.png"; path = "NSPlaygroundn8/Resources/search@2x.png"; sourceTree = "<group>"; };
+		D8C33FCA3E59400D852757A4 /* TNSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSCalendar.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-calendar/platforms/ios/TNSCalendar.framework"; sourceTree = "<group>"; };
+		E4EE73A7B4704810AB33CBF8 /* home.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = home.png; path = NSPlaygroundn8/Resources/home.png; sourceTree = "<group>"; };
+		E96E7BBBF0E94A2DB17DD7EA /* home@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "home@3x.png"; path = "NSPlaygroundn8/Resources/home@3x.png"; sourceTree = "<group>"; };
+		F0474FA33D69453D8CAF598A /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = search.png; path = NSPlaygroundn8/Resources/search.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1026F11BC8CE45A8A45B64BD /* TNSAutoComplete.framework in Frameworks */,
+				0F494E063A0D42E39E437D61 /* TNSCalendar.framework in Frameworks */,
+				FE9BC54A2E0A482FA1ED6806 /* TNSChart.framework in Frameworks */,
+				4744B633E313459DA424D86F /* TNSDataForm.framework in Frameworks */,
+				AF6270B6FB6F4415ACCC35ED /* TNSGauge.framework in Frameworks */,
+				B4E6289A73F1451DA062466F /* TNSListView.framework in Frameworks */,
+				0BD6EF7BC2254C6692A6E79E /* TNSSideDrawer.framework in Frameworks */,
+				D1E9AF51DA0E48B7820B18C8 /* TNSWidgets.framework in Frameworks */,
+				197C25D74986424DBC91E0A1 /* sqlitewrapper.framework in Frameworks */,
+				6B5F1C2B01C04982A2153647 /* TNSCore.framework in Frameworks */,
+				8B2C6CE092953BCC18AA6255 /* Pods_NSPlaygroundn8.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C751E1232B767700186695 /* Build Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				42C751E5232B769100186695 /* nativescript-post-build */,
+				42C751E6232B769100186695 /* nativescript-pre-build */,
+				42C751E2232B769100186695 /* nativescript-pre-link */,
+				42C751E4232B769100186695 /* nsld.sh */,
+				42C751E3232B769100186695 /* strip-dynamic-framework-architectures.sh */,
+			);
+			name = "Build Scripts";
+			sourceTree = "<group>";
+		};
+		4DF0D4AC237F4D17AF6990C1 /* nativescript-image */ = {
+			isa = PBXGroup;
+			children = (
+				C63968FA6F5B4895BA621729 /* NSImage.h */,
+				2DC7C27BD491499495741754 /* NSImageView.m */,
+			);
+			name = "nativescript-image";
+			sourceTree = "<group>";
+		};
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* NSPlaygroundn8 */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+				85D58414BC3D43D583BDC948 /* TNSNativeSource */,
+				887F30C298E44D7A9DF65D41 /* @nativescript/core */,
+				4DF0D4AC237F4D17AF6990C1 /* nativescript-image */,
+				C0F231C635C6396EE7AD1D0C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* NSPlaygroundn8.app */,
+				858B843318CA22B800AB12DE /* NSPlaygroundn8.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85C1042CDB364D27888D37E8 /* TNSAutoComplete.framework */,
+				D8C33FCA3E59400D852757A4 /* TNSCalendar.framework */,
+				A1101F30AEBD44289C304123 /* TNSChart.framework */,
+				21A5E66AED8B4DDFA3261CFD /* TNSDataForm.framework */,
+				B57BBA9AB06E4B3EA43480C0 /* TNSGauge.framework */,
+				9C2BF12050AD441BB1F34918 /* TNSListView.framework */,
+				9196BBDE71394610BFBCB53F /* TNSSideDrawer.framework */,
+				5CC3B3A210264A5EBD6ABD61 /* TNSWidgets.framework */,
+				B23C21E2C97E47C8A232B09F /* sqlitewrapper.framework */,
+				BDC7340B95F64C44AFA655C5 /* TNSCore.framework */,
+				72880CAC43F92CFCA8B14D10 /* Pods_NSPlaygroundn8.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* NSPlaygroundn8 */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = NSPlaygroundn8;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42C751E1232B767700186695 /* Build Scripts */,
+				391174B821F1D99900BA2583 /* plugins-debug.xcconfig */,
+				391174B721F1D99900BA2583 /* plugins-release.xcconfig */,
+				391174B321F1CBD300BA2583 /* TNSDebugging.h */,
+				391174B421F1CBD300BA2583 /* TNSExceptionHandler.h */,
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				391174B521F1D7BF00BA2583 /* nativescript-build.xcconfig */,
+				858B833918CA111C00AB12DE /* NSPlaygroundn8-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* NSPlaygroundn8-Prefix.pch */,
+				930F05DB22671AE300D269DC /* Swift-ObjC-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85D58414BC3D43D583BDC948 /* TNSNativeSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TNSNativeSource;
+			sourceTree = "<group>";
+		};
+		887F30C298E44D7A9DF65D41 /* @nativescript/core */ = {
+			isa = PBXGroup;
+			children = (
+				A7513D66BB3E47FBA4F70709 /* NativeScriptEmbedder.h */,
+				5FF348B5BCF94CCB9CCA53EE /* NativeScriptEmbedder.m */,
+				BCBB4F7B0A3E4334A8ACC291 /* module.modulemap */,
+			);
+			name = "@nativescript/core";
+			sourceTree = "<group>";
+		};
+		C0F231C635C6396EE7AD1D0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09EE0C9C99FB6C486970B762 /* Pods-NSPlaygroundn8.debug.xcconfig */,
+				5D1020701B6A8A8E161A36EB /* Pods-NSPlaygroundn8.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E3E2E80DCB447C280C76A89 /* Assets.xcassets */,
+				6C41ACDE3F744CCB8188E6CC /* LaunchScreen.storyboard */,
+				9272575B590842AC867AD984 /* browse.png */,
+				68A0CC4C7C6D4D70BDA61751 /* browse@2x.png */,
+				2E5BBB42B58345049A7CAA4E /* browse@3x.png */,
+				6B7F9C0B2BD1402AAAAE0F97 /* build.xcconfig */,
+				7A21B6F2F14645179DEF4BA1 /* favorites.png */,
+				ADDC4850BF414360BE56C40C /* favorites@2x.png */,
+				8DFEF976EF8D4D0CB5337820 /* favorites@3x.png */,
+				E4EE73A7B4704810AB33CBF8 /* home.png */,
+				6C94E995A0834EB793FA762A /* home@2x.png */,
+				E96E7BBBF0E94A2DB17DD7EA /* home@3x.png */,
+				4A8FFA984F994E7E9896A477 /* menu.png */,
+				4AE1B82B651F462BA082B5DA /* menu@2x.png */,
+				45E82F09A46B4F598358436B /* menu@3x.png */,
+				F0474FA33D69453D8CAF598A /* search.png */,
+				CE8F280484074425854564F4 /* search@2x.png */,
+				92AC773138004BC49734BA94 /* search@3x.png */,
+				67CF941C2ABE48ECB7D6E8B2 /* settings.png */,
+				2DBFA5FF2FD04861829A7A58 /* settings@2x.png */,
+				932807D2137949F9B6ED3346 /* settings@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* NSPlaygroundn8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "NSPlaygroundn8" */;
+			buildPhases = (
+				E4A60A233A9F1F13B11DFE5A /* [CP] Check Pods Manifest.lock */,
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				B635DBBB989A725688692D37 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSPlaygroundn8;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* NSPlaygroundn8.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 500;
+				ORGANIZATIONNAME = Telerik;
+				TargetAttributes = {
+					858B83EF18CA22B800AB12DE = {
+						DevelopmentTeam = 488ZKSDLLT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "NSPlaygroundn8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* NSPlaygroundn8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				42C751EB232B769100186695 /* nativescript-pre-build in Resources */,
+				42C751EA232B769100186695 /* nativescript-post-build in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				42C751E7232B769100186695 /* nativescript-pre-link in Resources */,
+				42C751E8232B769100186695 /* strip-dynamic-framework-architectures.sh in Resources */,
+				42C751E9232B769100186695 /* nsld.sh in Resources */,
+				842B5546D3934765B35E65A3 /* Assets.xcassets in Resources */,
+				CA51D648B6694D18B9B9A8C3 /* LaunchScreen.storyboard in Resources */,
+				CAE5D0CE0CC344CEBA30A0D8 /* browse.png in Resources */,
+				249EC61177EE475A8836D61F /* browse@2x.png in Resources */,
+				816F949DEC6B4ADA821D4875 /* browse@3x.png in Resources */,
+				90C1637555524DAAB0A1D39A /* build.xcconfig in Resources */,
+				EBFCB7ADC8874F479811643F /* favorites.png in Resources */,
+				63CB620E8A664154A241D29A /* favorites@2x.png in Resources */,
+				43546EAC14A54E9D874EB2F5 /* favorites@3x.png in Resources */,
+				7C51F40F1E4A4FEC96CB318C /* home.png in Resources */,
+				C72EE514CB414FFD8C2E4621 /* home@2x.png in Resources */,
+				372B90F0D52345099E4A9789 /* home@3x.png in Resources */,
+				528FA8EB97204B41B251060C /* menu.png in Resources */,
+				D84D1C8355B54CDABD4ECBDE /* menu@2x.png in Resources */,
+				0203DF3E1D5B4A22B7B26D55 /* menu@3x.png in Resources */,
+				B9B94C605E6E4472A06CE9B3 /* search.png in Resources */,
+				E97E446621B84D4C8958983D /* search@2x.png in Resources */,
+				18BA2B0E610242E6B11DE884 /* search@3x.png in Resources */,
+				83E2DF979A5D497EB6D79E33 /* settings.png in Resources */,
+				FA1C72D2954642968AF68667 /* settings@2x.png in Resources */,
+				9367CBBFE2A4431181B84B92 /* settings@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B635DBBB989A725688692D37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NSPlaygroundn8/Pods-NSPlaygroundn8-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/QBImagePickerController/QBImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QBImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NSPlaygroundn8/Pods-NSPlaygroundn8-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+		E4A60A233A9F1F13B11DFE5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NSPlaygroundn8-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+				F7060FA2A0B34F5690B10A77 /* NativeScriptEmbedder.m in Sources */,
+				38E891D5EF384A5CB9ECE195 /* NSImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/internal/Swift-ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/internal/Swift-ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 488ZKSDLLT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-autocomplete/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-calendar/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-chart/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-dataform/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-gauge/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-sidedrawer/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-sqlite/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSPlaygroundn8/NSPlaygroundn8-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$SRCROOT/internal/Swift-Modules\"",
+					"\"$(SRCROOT)/internal\"",
+					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-image/platforms/ios/src\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/NSPlaygroundn8/NSPlaygroundn8-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.playvue;
+				PRODUCT_NAME = NSPlaygroundn8;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 488ZKSDLLT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-autocomplete/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-calendar/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-chart/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-dataform/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-gauge/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-sidedrawer/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-sqlite/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSPlaygroundn8/NSPlaygroundn8-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$SRCROOT/internal/Swift-Modules",
+					"$(SRCROOT)/internal",
+					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-image/platforms/ios/src\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/NSPlaygroundn8/NSPlaygroundn8-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.playvue;
+				PRODUCT_NAME = NSPlaygroundn8;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "NSPlaygroundn8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "NSPlaygroundn8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}

@@ -1,0 +1,39 @@
+use_frameworks!
+
+target "NSPlaygroundn8" do
+# NativeScriptPlatformSection /Users/hojinjang/Downloads/NSPlayground-n8/node_modules/@nativescript/core/platforms/ios/Podfile with 9.0
+platform :ios, '9.0'
+# End NativeScriptPlatformSection
+
+# Begin Podfile - /Users/hojinjang/Downloads/NSPlayground-n8/node_modules/@nativescript/core/platforms/ios/Podfile
+# platform :ios, '9.0'
+use_frameworks!
+
+pod 'MaterialComponents/Tabs', '~> 92.3'
+# End Podfile
+
+# Begin Podfile - /Users/hojinjang/Downloads/NSPlayground-n8/node_modules/nativescript-image/platforms/ios/Podfile
+pod 'SDWebImage', '>= 5.0.6'
+
+# End Podfile
+
+# Begin Podfile - /Users/hojinjang/Downloads/NSPlayground-n8/node_modules/nativescript-imagepicker/platforms/ios/Podfile
+pod 'QBImagePickerController', '~> 3.4.0'
+# End Podfile
+
+# Begin Podfile - /Users/hojinjang/Downloads/NSPlayground-n8/node_modules/nativescript-iqkeyboardmanager/platforms/ios/Podfile
+pod 'IQKeyboardManager', '~> 6.2.0'
+
+# End Podfile
+
+# Begin Podfile - /Users/hojinjang/Downloads/NSPlayground-n8/node_modules/tns-core-modules/platforms/ios/Podfile
+# platform :ios, '9.0'
+use_frameworks!
+
+pod 'MaterialComponents/Tabs', '~> 92.3'
+# End Podfile
+
+# Begin Podfile - /Users/hojinjang/Downloads/NSPlayground-n8/node_modules/nativescript-secure-storage/platforms/ios/Podfile
+pod 'SAMKeychain', '~> 1.5.3'
+# End Podfile
+end
